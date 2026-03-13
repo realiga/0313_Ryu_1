@@ -18,9 +18,9 @@ while True:
     
     # 4. 판독하기 (조건문)
     if guess < secret_number:
-        print("더 큰 숫자예요! (UP)")
+        print("더 큰 숫자예요! (UP⬆️)")
     elif guess > secret_number:
-        print("더 작은 숫자예요! (DOWN)")
+        print("더 작은 숫자예요! (DOWN⬇️)")
     else:
         print(f"정답입니다! {attempts}번 만에 맞추셨네요! 🎉")
         break  # 정답을 맞췄으니 반복을 끝냅니다
